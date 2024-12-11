@@ -234,6 +234,7 @@ nav{
         right: -75dvw;
         width: 70dvw;
         transition: right 1s;
+        display: none;
     }
     #menuClose{
         display: block;
