@@ -11,7 +11,7 @@ openMenu.addEventListener('click', () =>{
 });
 
 closeMenu.addEventListener('click', () =>{
-    navMenu.style.right = '-71dvw';
+    navMenu.style.right = '-75dvw';
     overlay.style.display = 'none';
     document.body.style.overflow = 'auto';
 });

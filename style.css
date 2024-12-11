@@ -24,6 +24,7 @@ html{
     'bottom bottom bottom'
     ;
     padding: 4% 15%;
+    overflow-x: hidden;
 }
 
 nav{
@@ -223,7 +224,7 @@ nav{
         background: hsl(36, 100%, 99%);
         height: 110dvh;
         top: 0;
-        right: -71dvw;
+        right: -75dvw;
         width: 70dvw;
         transition: right 1s;
     }
