@@ -9,8 +9,10 @@
     font-family: 'Inter';
     font-size: 15px;
 }
-html{
+html, body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100dvw;
 }
 
 .container{
@@ -26,7 +28,6 @@ html{
     ;
     padding: 4% 15%;
     width: 100dvw;
-    overflow-x: hidden;
 }
 
 nav{
@@ -166,7 +167,6 @@ nav{
 }
 
 @media only screen and (max-width: 450px) {
-    
     .container{
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
@@ -178,7 +178,6 @@ nav{
         'bottom'
         ;
         width: 100dvw;
-        overflow-x: hidden;
         padding: 10% 6%;
     }
     #menuOpen{
