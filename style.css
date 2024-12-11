@@ -167,6 +167,10 @@ nav{
 }
 
 @media only screen and (max-width: 450px) {
+    html, body{
+        overflow-x: hidden;
+        width: 100dvw;
+    }
     .container{
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
