@@ -176,6 +176,7 @@ nav{
         ;
         width: 100dvw;
         padding: 10% 6%;
+        overflow-x: hidden;
     }
     #menuOpen{
         display: block;
